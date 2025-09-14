@@ -35,19 +35,23 @@ a {
 
 .container {
     text-align: center;
-    width: 50%;
+    width: 70%;
 }
 
-.linkBox {
-    background-color: #54c556;
+.character {
+    display: flex;
+    flex-direction: row;
+    background: #4bb54b;
+}
+
+.characterText {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
+    text-align: left;
+    margin-left: 20px;
 }
 
-.linkBox:hover {
-    background-color: #4bb54b;
-    cursor: pointer;
+.character img {
+    width: 100%;
+    margin: 10px;
 }
