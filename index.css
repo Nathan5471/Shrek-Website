@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5aa55b;
+}
+
+h1 {
+    color: #d3fed3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+}
