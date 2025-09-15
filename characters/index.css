@@ -41,17 +41,24 @@ a {
 .character {
     display: flex;
     flex-direction: row;
-    background: #4bb54b;
+    width: 100%;
+    background: #54c556;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .characterText {
     display: flex;
     flex-direction: column;
+    width: 75%;
     text-align: left;
     margin-left: 20px;
 }
 
 .character img {
-    width: 100%;
+    width: 25%;
+    height: auto;
     margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
 }
