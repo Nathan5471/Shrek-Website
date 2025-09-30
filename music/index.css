@@ -59,6 +59,11 @@ a {
     margin-left: 20px;
 }
 
+.song iframe {
+    width: 560px;
+    height: 315px;
+}
+
 .linkBox {
     background-color: #54c556;
     display: flex;
@@ -80,4 +85,80 @@ a {
     color: #dafada;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .song {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .songText {
+        text-align: center;
+        width: 95%;
+    }
+
+    .song iframe {
+        width: 80%;
+        height: auto;
+        aspect-ratio: 16/9;
+        margin-bottom: 10px;
+    }
+
+    .linkBox {
+        padding: 5px;
+        margin: 5px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 641px) {
+    h1 { 
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .song {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .songText {
+        text-align: center;
+        width: 95%;
+    }
+
+    .song iframe {
+        width: 80%;
+        height: auto;
+        aspect-ratio: 16/9;
+        margin-bottom: 10px;
+    }
 }
